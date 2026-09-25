@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رفيق المسلم</string>
+
+    <!-- Navigation -->
+    <string name="nav_prayer_times">المواقيت</string>
+    <string name="nav_qibla">القبلة</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Prayer names -->
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+
+    <!-- Prayer times screen -->
+    <string name="next_prayer_in">الصلاة القادمة خلال</string>
+    <string name="today_date">تاريخ اليوم</string>
+    <string name="fetching_location">جارٍ تحديد الموقع…</string>
+    <string name="fetching_timings">جارٍ تحميل مواقيت الصلاة…</string>
+    <string name="location_error">تعذر تحديد الموقع. يرجى تفعيل خدمة الموقع ومنح الإذن.</string>
+    <string name="network_error">تعذر الاتصال بالخادم. تحقق من اتصال الإنترنت.</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="grant_permission">منح الإذن</string>
+    <string name="location_permission_rationale">يحتاج التطبيق إلى إذن الموقع لحساب مواقيت الصلاة واتجاه القبلة بدقة.</string>
+
+    <!-- Qibla screen -->
+    <string name="qibla_title">اتجاه القبلة</string>
+    <string name="qibla_instructions">وجّه هاتفك أفقياً وسيشير السهم الأخضر تلقائياً إلى اتجاه الكعبة المشرفة</string>
+    <string name="qibla_degree_label">الزاوية عن الشمال</string>
+    <string name="qibla_sensor_missing">جهازك لا يحتوي على مستشعر البوصلة اللازم لعرض اتجاه القبلة.</string>
+    <string name="qibla_calibrate">حرّك هاتفك على شكل رقم 8 لمعايرة البوصلة إذا كانت القراءة غير دقيقة</string>
+
+    <!-- Settings screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_notifications_header">الإشعارات</string>
+    <string name="settings_azan_sound">تشغيل صوت الأذان</string>
+    <string name="settings_azan_sound_desc">تشغيل الأذان صوتياً عند دخول وقت كل صلاة</string>
+    <string name="settings_location_header">الموقع</string>
+    <string name="settings_refresh_location">تحديث الموقع الآن</string>
+    <string name="settings_refresh_location_desc">إعادة تحديد موقعك الحالي وتحديث مواقيت الصلاة</string>
+    <string name="settings_location_updated">تم تحديث الموقع بنجاح</string>
+    <string name="settings_about_header">حول التطبيق</string>
+    <string name="settings_app_version">الإصدار %1$s</string>
+    <string name="settings_developer_credit">تم التطوير بكل ❤️ بواسطة Karim</string>
+    <string name="settings_calculation_method">طريقة الحساب</string>
+
+    <!-- Notification channel -->
+    <string name="azan_channel_name">تنبيهات الأذان</string>
+    <string name="azan_channel_desc">إشعارات صوتية عند دخول وقت الصلاة</string>
+    <string name="azan_notification_title">حان الآن وقت صلاة %1$s</string>
+    <string name="azan_notification_text">اضغط لعرض مواقيت الصلاة</string>
+</resources>
